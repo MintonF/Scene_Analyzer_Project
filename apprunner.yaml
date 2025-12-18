@@ -1,0 +1,8 @@
+build:
+  commands:
+  - pip install -r requirements.txt
+runtime: python
+runtimeVersion: '3.11'
+start:
+  command: python app.py
+version: '1.0'
